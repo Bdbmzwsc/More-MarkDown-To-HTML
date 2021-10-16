@@ -6,4 +6,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="simple.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="devexpress.wpf.core" Version="21.1.5" />
+    <PackageReference Include="Markdig" Version="0.26.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.3.0-ci60" />
+  </ItemGroup>
+
 </Project>
